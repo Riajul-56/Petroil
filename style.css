@@ -1,103 +1,104 @@
 /* =================== google font css start ================== */
 .poppins {
-    font-family: "Poppins", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
-  .thin {
-    font-weight: 100;
-  }
-  .extralight {
-    font-weight: 200;
-  }
-  .light {
-    font-weight: 300;
-  }
-  .normal {
-    font-weight: 400;
-  }
-  .medium {
-    font-weight: 500;
-  }
-  .semibold {
-    font-weight: 600;
-  }
-  .bold {
-    font-weight: 700;
-  }
-  .extrabold {
-    font-weight: 800;
-  }
-  .black {
-    font-weight: 900;
-  }
+.thin {
+  font-weight: 100;
+}
+.extralight {
+  font-weight: 200;
+}
+.light {
+  font-weight: 300;
+}
+.normal {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.extrabold {
+  font-weight: 800;
+}
+.black {
+  font-weight: 900;
+}
 /* =================== google font css end ================== */
 
 /* =================== cpmmon css start ================== */
-ul{
-    padding: 0px;
+ul {
+  padding: 0px;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-:root{
-    --primary_color:#FFFFFF;
-    --secondary_color:#F40404;
+:root {
+  --primary_color: #ffffff;
+  --secondary_color: #f40404;
 }
-a{
-    color: var(--primary_color) !important;
-    text-decoration: none;
+a {
+  color: var(--primary_color) !important;
+  text-decoration: none;
 }
 .x_btn {
-    background-color: var(--secondary_color);
-    padding: 13px 32px;
-    border: 1px solid var(--primary_color);
-    font-size: 18px;
-    font-weight: 600;
+  background-color: var(--secondary_color);
+  padding: 13px 32px;
+  border: 1px solid var(--primary_color);
+  font-size: 18px;
+  font-weight: 600;
 }
 /* =================== common css end ================== */
 
 /* =================== navbar css start ================== */
-nav{
-    background-color: rgba(244, 4, 4, 1);
-    width: 100%;
+nav {
+  background-color: rgba(244, 4, 4, 1);
+  width: 100%;
 }
-.navbar-brand img{
-    width: 192px;
-    height: 44px;
-    margin-right: 274px;
+.navbar-brand img {
+  width: 192px;
+  height: 44px;
+  margin-right: 274px;
 }
-.nav-link{
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--primary_color) !important;
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary_color) !important;
 }
 .navbar-nav {
-    gap: 47px;
-  }
+  gap: 47px;
+}
 /* =================== navbar css end ================== */
 
 /* =================== banner css start ================== */
-#banner{
-    background: url("./imeges/banner.png") no-repeat;
-    background-blend-mode: multiply;
-    padding-top: 257px;
-    padding-bottom: 258px;
-    margin-top: 16px;
+#banner {
+  background: url("./imeges/banner.png") no-repeat center ;
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-top: 257px;
+  padding-bottom: 258px;
+  margin-top: 16px;
 }
-.banner_content{
-    width: 842px;
+.banner_content {
+  width: 842px;
 }
-.banner_content h1{
-    font-size: 64px;
-    color: var(--primary_color);
-    margin-bottom: 31px;
+.banner_content h1 {
+  font-size: 64px;
+  color: var(--primary_color);
+  margin-bottom: 31px;
 }
 
-.banner_btn .x_btn{
-    padding: 13px 41px;
-    border: none;
-    display: inline-block;
+.banner_btn .x_btn {
+  padding: 13px 41px;
+  border: none;
+  display: inline-block;
 }
 /* =================== banner css end ================== */

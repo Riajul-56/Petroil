@@ -32,6 +32,7 @@
 .black {
   font-weight: 900;
 }
+
 /* =================== google font css end ================== */
 
 /* =================== common css start ================== */
@@ -55,6 +56,9 @@ a {
   border: 1px solid var(--primary_color);
   font-size: 18px;
   font-weight: 600;
+}
+.flex{
+  display: flex;
 }
 /* =================== common css end ================== */
 
@@ -207,3 +211,31 @@ nav {
   border: none;
 }
 /* =================== services css end ================== */
+
+
+/* =================== learn css start ================== */
+#learn{
+  padding: 136px 0px;
+}
+.learn_main{
+  justify-content: center;
+}
+.learn_content{
+  background-color: var(--secondary_color);
+  padding: 100px 74px;
+}
+.learn_content h3{
+  font-size: 36px;
+  color: var(--primary_color);
+  width: 262px;
+}
+.learn_btn .x_btn{
+  /* color: var(--secondary_color); */
+  background-color: var(--primary_color);
+}
+.learn_btn{
+  background: url("./imeges/learn.png");
+  margin: auto;
+  padding: 142px 168px;
+}
+/* =================== learn css end ================== */
